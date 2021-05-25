@@ -71,7 +71,8 @@
           "executor": "@nrwl/web:dev-server",
           "options": {
             "buildTarget": "store:build",
-            "hmr": true
+            "hmr": true,
+            "port": 3001
           },
           "configurations": {
             "production": {
